@@ -20,7 +20,7 @@ A simple and elegant React app to help you stay on top of your daily to-dos — 
 - React
 - HTML/CSS
 - JavaScript
-- (Optional) Tailwind CSS or Bootstrap for styling
+- Tailwind CSS
 
 
 
