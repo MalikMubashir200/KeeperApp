@@ -1,6 +1,8 @@
 import React from 'react';
+import DeleteIcon from "@mui/icons-material/Delete";
 
 function NoteCard(props) {
+
   function handleClick() {
     props.onDelete(props.id)
   }
@@ -23,7 +25,7 @@ function NoteCard(props) {
           </div>
         
         </div>
-        <button onClick={handleClick} className=' p-2 text-red-700'>Delete</button>
+        <button onClick={handleClick} className='text-red-500'>Remove<DeleteIcon/></button>
       </div>
     </div>
   );

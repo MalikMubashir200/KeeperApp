@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AddIcon from "@mui/icons-material/Add";
 
 function NoteInput(props) {
   const [note, setNote] = useState({
@@ -50,11 +51,7 @@ function NoteInput(props) {
           type="submit"
           className="bg-indigo-600 text-white p-3 rounded-full hover:bg-indigo-700 transition-colors duration-200 shadow-md hover:shadow-lg"
         >
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"
-               viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                  d="M12 4v16m8-8H4" />
-          </svg>
+          <AddIcon/>
         </button>
       </div>
     </form>
